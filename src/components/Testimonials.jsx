@@ -27,7 +27,7 @@ const Testimonials = () => {
     {
       name: 'Priya Sharma',
       role: 'Regular Customer',
-      image: '/images/avatar-3.png',
+      image: 'https://www.freepik.com/premium-ai-image/account-manager-digital-avatar-generative-ai_65667274.htm#fromView=keyword&page=1&position=8&uuid=5dbc4314-c7e8-4894-aa45-7cc29aea6314&query=Png+Avatars',
       text: 'The milkshakes at Swtylicious are absolutely divine! The perfect blend of creaminess and flavor. Their carrot halwa is also a must-try!',
       rating: 5,
     },
