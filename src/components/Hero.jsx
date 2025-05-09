@@ -18,17 +18,17 @@ const Hero = () => {
 
   const slides = [
     {
-      image: '/images/milkshake.jpg',
+      image: 'images/milkshake.jpg',
       title: 'Delicious Milkshakes',
       description: 'Experience our signature creamy milkshakes',
     },
     {
-      image: '/images/peeda.jpg',
+      image: 'images/peeda.jpg',
       title: 'Traditional Milk Peda',
       description: 'Authentic taste of traditional sweets',
     },
     {
-      image: '/images/carrots.jpeg',
+      image: 'images/carrots.jpeg',
       title: 'Carrot Delights',
       description: 'Unique carrot-based sweets for every occasion',
     },

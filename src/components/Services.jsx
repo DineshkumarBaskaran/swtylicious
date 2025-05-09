@@ -8,25 +8,25 @@ const Services = () => {
       icon: 'fas fa-glass-cheers',
       title: 'Signature Milkshakes',
       description: 'Experience our rich and creamy milkshakes made with premium ingredients and unique flavors.',
-      image: '/images/milk.jpg',
+      image: 'images/milk.jpg',
     },
     {
       icon: 'fas fa-cookie',
       title: 'Traditional Milk Peda',
       description: 'Authentic milk peda prepared using traditional methods and pure milk for that perfect taste.',
-      image: '/images/milkpe.jpg',
+      image: 'images/milkpe.jpg',
     },
     {
       icon: 'fas fa-carrot',
       title: 'Carrot Specialties',
       description: 'Delight in our range of carrot-based sweets, from classic halwa to innovative creations.',
-      image: '/images/carrot.jpg',
+      image: 'images/carrot.jpg',
     },
     {
       icon: 'fas fa-gift',
       title: 'Custom Gift Boxes',
       description: 'Create your perfect gift box with a selection of our finest sweets and treats.',
-      image: '/images/gift.jpg',
+      image: 'images/gift.jpg',
     },
   ];
 
