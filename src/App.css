@@ -1,0 +1,212 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* CSS Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Root Container */
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+
+@media (min-width: 1200px) {
+  .section-title {
+    font-size: 2.8rem;
+  }
+  .section-description {
+    font-size: 1.2rem;
+  }
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+  .section-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+  .section-description {
+    font-size: 1.05rem;
+  }
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-description {
+    font-size: 1rem;
+  }
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+  .section-description {
+    font-size: 0.95rem;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
+/* Common Section Styles */
+.section-padding {
+  padding: 100px 0;
+}
+
+@media (max-width: 991px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-padding {
+    padding: 40px 0;
+  }
+}
+
+/* Logo Styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms ease-in-out;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Logo Spin Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card Section */
+.card {
+  padding: 2em;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Read-the-docs */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Section Title & Description */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.section-divider {
+  width: 80px;
+  height: 3px;
+  background-color: #ff6b6b;
+  margin: 0 auto 2rem;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6b6b;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5252;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}

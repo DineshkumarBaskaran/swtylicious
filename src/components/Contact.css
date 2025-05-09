@@ -1,0 +1,165 @@
+.contact-section {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.contact-info {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.info-item:last-child {
+  margin-bottom: 0;
+}
+
+.info-item i {
+  font-size: 1.5rem;
+  color: #ff6b6b;
+  margin-right: 1rem;
+  margin-top: 0.25rem;
+}
+
+.info-item h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.info-item p {
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.contact-form {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 0 0.2rem rgba(255, 107, 107, 0.25);
+}
+
+.submit-btn {
+  background-color: #ff6b6b;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #ff5252;
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 1199px) {
+  .info-item i {
+    font-size: 1.4rem;
+  }
+
+  .info-item h4 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-section {
+    padding: 80px 0;
+  }
+
+  .contact-info,
+  .contact-form {
+    margin-bottom: 2rem;
+  }
+
+  .info-item {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .info-item i {
+    font-size: 1.3rem;
+  }
+
+  .info-item h4 {
+    font-size: 1rem;
+  }
+
+  .form-control {
+    padding: 0.7rem;
+  }
+
+  .submit-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-section {
+    padding: 40px 0;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 1.2rem;
+  }
+
+  .info-item {
+    margin-bottom: 1.2rem;
+  }
+
+  .info-item i {
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+  }
+
+  .info-item h4 {
+    font-size: 0.95rem;
+  }
+
+  .info-item p {
+    font-size: 0.9rem;
+  }
+
+  .form-control {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .submit-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+} 
