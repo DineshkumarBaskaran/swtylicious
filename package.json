@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://DineshkumarBaskaran.github.io/swtylicious",
+  "homepage": "https://github.com/DineshkumarBaskaran/swtylicious/",
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -12,6 +12,7 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
+    
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
