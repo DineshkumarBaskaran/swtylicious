@@ -49,14 +49,14 @@ const Contact = () => {
                 <i className="fas fa-map-marker-alt"></i>
                 <div>
                   <h4>Our Location</h4>
-                  <p>123 Sweet Street, Dessert City, Chennai</p>
+                  <p>Thubarahalli vibgyor high school Road, Bengaluru</p>
                 </div>
               </div>
               <div className="info-item">
                 <i className="fas fa-phone"></i>
                 <div>
                   <h4>Phone Number</h4>
-                  <p>+91 92123-45675</p>
+                  <p>+91 999017-18700</p>
                 </div>
               </div>
               <div className="info-item">
